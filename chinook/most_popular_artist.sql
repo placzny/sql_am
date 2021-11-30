@@ -1,1 +1,6 @@
---  -  What are most popular artists, return artist name, count sold tracks.
+/*
+level: easy
+Calculate per artist:
+- number of tracks sold
+- total cost of sold tracks to customers
+*/
