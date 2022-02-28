@@ -6,10 +6,10 @@ Syntax reference:
 	FROM {table}
 	JOIN {table} ON {join_conditions}
 	WHERE {row_filter}
-	ORDER BY {columns}
-	LIMIT {number_of_rows}
 	GROUP BY {columns}
-	HAVING {group_filter};
+	HAVING {group_filter}
+	ORDER BY {columns}
+	LIMIT {number_of_rows};
 */
 
 -- 1. show all records and columns from albums table
@@ -24,4 +24,4 @@ Syntax reference:
 
 -- 6. show number of customers per country (customers table)
 
--- 7. show table that outputs two columns: album id, album name, track name, track duration (join tracks with albums)
+-- 7. show table that outputs four columns: album id, album name, track name, track duration (join tracks with albums)
