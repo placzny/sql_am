@@ -1,5 +1,5 @@
 /*
-level: hard
+level: very hard
 We want to calculate the score per employee. Score is expected to be a reflection of employee's total workload.
 Employees work either on invoices or managing people.
 
